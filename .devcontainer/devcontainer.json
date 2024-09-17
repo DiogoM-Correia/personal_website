@@ -1,0 +1,13 @@
+{
+	"name": "Personal Website Dev Container",
+	"dockerComposeFile": ["../docker-compose.yml"],
+	"service": "web",
+	"workspaceFolder": "/usr/src/app",
+	"extensions": [
+	  "ms-vscode-remote.remote-containers"
+	],
+	"settings": {
+	  "terminal.integrated.shell.linux": "/bin/bash"
+	}
+  }
+  
