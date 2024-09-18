@@ -1,87 +1,67 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #1a1a1a;
-    color: #f5f5f5;
+  body {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #ffffff;
+    color: #5a5858;
     margin: 0;
     padding: 0;
+    font-size: 12px;
   }
   
   header {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
+    background-color: #96b6a3; /* Semi-dark green */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
-  .profile-pic {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+  .header-left {
+    font-size: 24px;
+    line-height: 1;
+    margin: 20px 0px 20px 80px;
+  }
+  
+  .header-right {    
+    margin: 20px 80px 20px 0px;
+  }
+  
+  .signature {
+    font-family: 'Brush Script MT', sans-serif;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .nav-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+    line-height: 1;
+  }
+  
+  .nav-button:hover {
+    text-decoration: underline;
   }
   
   h1 {
-    margin: 10px 0;
+    font-family: Georgia, sans-serif;
+    font-size: 70px;
+    margin: 80px 0 10px;
+    text-align: center;    
   }
   
   h2 {
-    color: #66ccff;
-  }
-  
-  section {
-    padding: 20px;
-  }
-  
-  .about-me, .hobbies, .contact {
-    margin: 20px auto;
-    max-width: 800px;
-  }
-  
-  .hobby {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .hobby img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    margin-right: 15px;
-  }
-  
-  .contact form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .contact label {
-    margin: 5px 0;
-  }
-  
-  .contact input, .contact textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #333;
-    border-radius: 5px;
-    background-color: #222;
-    color: #fff;
-  }
-  
-  .contact button {
-    padding: 10px;
-    background-color: #66ccff;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .contact button:hover {
-    background-color: #3399cc;
-  }
-  
-  footer {
+    margin: 10px 0 50px;
     text-align: center;
-    padding: 10px;
-    background-color: #333;
+    font-size: 25px;
   }
+
+  p {   
+    margin: 40px 80px 0px 80px;
+    text-align: left;
+    font-size: 18px;
+  }
+
   
