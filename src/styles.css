@@ -54,6 +54,14 @@
   .nav-button:hover {
     text-decoration: underline;
   }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  main > section:last-child {
+    margin-bottom: 80px;
+  }
   
   h1 {
     font-family: Georgia, sans-serif;
@@ -63,7 +71,7 @@
   }
   
   h2 {
-    margin: 10px 500px 50px 500px;
+    margin: 10px 500px 200px 500px;
     text-align: left;
     font-size: 25px;
   }
@@ -75,9 +83,9 @@
   }
 
   .about-section {
-    background-color: #e6f3ff; /* Light blue background */
+    background-color: #e6f3ff;
     padding: 60px 0;
-    margin: 80px -500px 0; /* Negative margin to extend to edge */
+    margin: 80px 0 0; /* Remove negative margin */
   }
   
   .section-header {
@@ -91,13 +99,15 @@
   .about-content {
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
+    max-width: 1600px; /* Match this with other sections' width */
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 10px 20px;
   }
   
   .about-text, .skills {
     width: 45%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
   }
   
   .about-text h3, .skills h3 {
@@ -107,9 +117,9 @@
   }
   
   .about-text p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6;
-    margin: 0;
+    margin: 0px;
   }
   
   .skill-tags {
@@ -125,11 +135,6 @@
     border-radius: 20px;
     font-size: 14px;
     font-weight: bold;
-  }
-  
-  /* Adjust body padding to account for the new section */
-  body {
-    padding-bottom: 140px; /* Increased to accommodate the new section */
   }
 
   .ribbon-footer {
